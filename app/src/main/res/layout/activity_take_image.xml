@@ -6,4 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".TakeImageActivity">
 
+    <ImageView
+        android:layout_weight="1"
+        android:id"@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:text="Capture Image" <!-- this button will be changed to an image -->
+        android:id"@+id/takeImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
