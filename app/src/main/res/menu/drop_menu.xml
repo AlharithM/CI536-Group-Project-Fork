@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:id="@+id/dropDown"
+    <item android:id="@+id/home" <!--the home button-->
         android:icon="@drawable/baseline_home_24"
-        android:title="dropDown"
+        android:title="home"
         app:showAsAction="ifRoom"/>
-    <item android:id="@+id/about"
+    <item android:id="@+id/about" <!--about button-->
         android:title="About"
         app:showAsAction="never"/>
-    <item android:id="@+id/contactUs"
+    <item android:id="@+id/contactUs" <!--Contact button-->
         android:title="Contact Us"
         app:showAsAction="never"/>
     <item android:id="@+id/accessability"
