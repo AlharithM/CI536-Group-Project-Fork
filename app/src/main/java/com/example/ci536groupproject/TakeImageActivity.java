@@ -29,6 +29,12 @@ public class TakeImageActivity extends AppCompatActivity {
                 Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                 startActivityForResult(intent, 100);
             }
-        });https://www.youtube.com/watch?v=XRD-lVwlSjU
+        });//https://www.youtube.com/watch?v=XRD-lVwlSjU
     }
+    @Override
+    protected void OnActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 100){
+            Bitmap bitmap = (Bitmap) data.getExtras().get("data);
+            imageView.setImageBitmap(bitmap);
 }
