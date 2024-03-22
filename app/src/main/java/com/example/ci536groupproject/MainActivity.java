@@ -49,6 +49,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void uploadImage(View view){
+        ImageView imageView;
+        imageView = {ImageView} findViewById(R.id.imageView);
+        
+        
         Intent intent = new Intent(MainActivity.this, UploadImageActivity.class);
         startActivity(intent);
     }
